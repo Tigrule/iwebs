@@ -1,0 +1,162 @@
+body {
+    font-family: Calibri, sans-serif;
+    background: white url('../img/cow.png') 1012px 119px no-repeat;
+}
+
+.pt24 {
+    font-size: 24pt;
+}
+
+header {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 115px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 18px;
+    padding: 19px 0;
+}
+
+
+main {
+    padding-top: 100px;
+    width: 1250px;
+    margin: 0 auto;
+    z-index: 2;
+
+}
+
+.title {
+    font: bold 60px Calibri, sans-serif;
+}
+
+.block1 {
+    background: url("../img/lum.png") 521px 14px no-repeat;
+    background-size: 850px;
+    padding-bottom: 100px;
+    margin-bottom: 120px;
+}
+
+.block1 .block {
+    /*position: relative;*/
+}
+
+.block1 .block-content {
+    width: 700px;
+}
+
+.block1 .block-img {
+}
+
+.block1 .block-content__header {
+}
+
+.block1 .block-content__text {
+    margin: 40px 0;
+}
+
+.orange-line {
+    background: linear-gradient(white, white 60%, #fb973b, #fb973b 66px, white, white 5px);
+}
+
+.orange-text {
+    color: #fb973b;
+}
+
+.block1 .send-form {
+    width: 391px;
+    font-size: 18px;
+    display: flex;
+}
+
+
+.block1 .send-form__input input {
+    height: 57px;
+    border: none;
+    text-align: center;
+}
+
+.block1 .send-form__button input {
+    height: 57px;
+    width: 195px;
+    border: none;
+    background: #fb973b;
+}
+
+.center {
+    text-align: center;
+}
+
+.block2 .block-content__text {
+    margin: 35px auto 49px auto;
+}
+
+.block3 .block {
+    display: flex;
+    justify-content: space-between;
+    width: 837px;
+    height: 448px;
+    margin: 0 auto;
+}
+
+
+.block3 .block-content__item {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px 0;
+}
+
+.block3 .number-between {
+    line-height: 1px;
+}
+
+.block3 .block-img {
+    height: 448px;
+    padding-top: 20px;
+}
+
+footer {
+    padding-top: 150px;
+}
+
+footer .block {
+    display:  flex;
+    justify-content: space-between;
+}
+
+footer .block-content {
+    flex-basis: 460px;
+}
+
+footer .block-content__text {
+    margin: 35px auto;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    width: 716px;
+}
+
+.partners__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.partners img {
+}
+
+
